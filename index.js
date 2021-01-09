@@ -120,4 +120,4 @@ const animate = (position, container) => {
     return animation
 }
 
-export { init }
+exports = init
