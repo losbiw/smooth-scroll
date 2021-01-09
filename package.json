@@ -1,0 +1,21 @@
+{
+  "name": "smooth-scroll-page",
+  "version": "1.0.0",
+  "description": "A way too smoothly scroll through a web page with minimal effort",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losbiw/smooth-scroll.git"
+  },
+  "keywords": [
+    "js",
+    "scroll",
+    "smooth"
+  ],
+  "author": "Vladislav Skorinov <skorinov41@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/losbiw/smooth-scroll/issues"
+  },
+  "homepage": "https://github.com/losbiw/smooth-scroll#readme"
+}
