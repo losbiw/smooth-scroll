@@ -1,5 +1,6 @@
-const init = (container, itemClassName, linkClassName) => {
-    const sections = document.getElementsByClassName(itemClassName);
+const init = (sectionClassName, linkClassName) => {
+    const sections = document.getElementsByClassName(sectionClassName);
+    const container = sections[0].parentNode;
 
     container.style['overflow-y'] = 'hidden';
 
@@ -11,7 +12,7 @@ const init = (container, itemClassName, linkClassName) => {
     }
 
     setupTouchEvents(scrollData);
-    setupLinks(linkClassName, scrollData);
+    if(linkClassName) setupLinks(linkClassName, scrollData);
     document.addEventListener('wheel', e => handleScroll(e, scrollData));
 }
 
@@ -120,4 +121,4 @@ const animate = (position, container) => {
     return animation
 }
 
-exports = init
+const smoothScroll = { init }
