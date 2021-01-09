@@ -1,7 +1,7 @@
-#Smooth-scroll-page
+# Smooth-scroll-page
 A way too smoothly scroll through a web page with minimal effort
 
-##Using
+## Using
 In order to use the package you have to: 
 1. Download the [index.js file](https://github.com/losbiw/smooth-scroll/blob/master/index.js)
 1. Place it somewhere in your project directory
