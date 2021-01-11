@@ -90,8 +90,6 @@ const setupLinks = (className, scrollData) => {
             const destination = [...sections].findIndex(elem => elem.id === hash);
 
             scrollData.current = destination;
-
-            console.log(parent, destination);
             
             animate({
                 initial: parent,
