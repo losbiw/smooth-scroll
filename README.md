@@ -1,5 +1,5 @@
 # Smooth-scroll-page
-A way too smoothly scroll through a web page with minimal effort
+Enable smooth-scroll between web-page's sections with minimal effort.
 
 ## Using
 In order to use the package you have to: 
